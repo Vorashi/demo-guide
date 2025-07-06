@@ -1,4 +1,18 @@
 {
-  "buildCommand": "cd demo-guide && npm install && npm run build",
-  "outputDirectory": "demo-guide/build"
+  "version": 2,
+  "builds": [
+    {
+      "src": "demo-guide/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "demo-guide/build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "demo-guide/$1"
+    }
+  ]
 }
