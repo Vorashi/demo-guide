@@ -1,0 +1,4 @@
+{
+  "buildCommand": "cd demo-guide && npm install && npm run build",
+  "outputDirectory": "demo-guide/build"
+}
