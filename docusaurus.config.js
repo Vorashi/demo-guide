@@ -13,7 +13,7 @@ const config = {
 
   url: 'https://demo-guide.vercel.app',
   baseUrl: '/',
-
+	trailingSlash: false,
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
