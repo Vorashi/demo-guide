@@ -11,7 +11,7 @@ const config = {
     v4: true,
   },
 
-  url: 'https://c-sharp-guid.vercel.app',
+  url: 'https://demo-guide.vercel.app',
   baseUrl: '/',
 
   onBrokenLinks: 'ignore',
